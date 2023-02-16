@@ -52,10 +52,7 @@ export default function Home() {
                </p>
             </div>
             <div className='space-x-2.5 mt-2 xl:mt-0 lg:space-x-5'>
-//                <ChipComponent label='Today' />
-//                <ChipComponent label='Last 7 Days' />
-//                <ChipComponent label='30 Days' />
-//                <ChipComponent label='1 Year' />
+
                <Button
                   startIcon={<SVG.Refresh />}
                   className='text-white normal-case bg-orange chip hidden lg:inline-block'
