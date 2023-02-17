@@ -11,7 +11,7 @@ export const GroupAvatars = ({ images }) => {
                      className='h-[30px] w-[30px] lg:h-[50px] lg:w-[50px] relative inline-block rounded-xl border-4 border-white'
                      style={{ zIndex: 10 + index }}
                   >
-                     <Image
+                     <img
                         src={`/images/${image}.png`}
                         alt={image}
                         layout='fill'
@@ -27,17 +27,17 @@ export const GroupAvatars = ({ images }) => {
             </>
          ) : (
             <>
-               <Image
+               <img
                   className='w-[2.5rem] h-[2.5rem] rounded-xl border-4 border-white dark:border-gray-800'
                   src='/images/person1.png'
                   alt=''
                />
-               <Image
+               <img
                   className='w-[2.5rem] h-[2.5rem] rounded-xl border-4 border-white dark:border-gray-800'
                   src='/images/person2.png'
                   alt=''
                />
-               <Image
+               <img
                   className='w-[2.5rem] h-[2.5rem] rounded-xl border-4 border-white dark:border-gray-800'
                   src='/images/person3.png'
                   alt=''
