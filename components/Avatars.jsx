@@ -16,7 +16,7 @@ export const GroupAvatars = ({ images }) => {
                         alt={image}
                         layout='fill'
                         className=''
-                     />
+                     /> 
                   </div>
                ))}
                {images.length > 3 && (
