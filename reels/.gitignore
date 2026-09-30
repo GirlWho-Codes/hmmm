@@ -1,0 +1,7 @@
+node_modules
+out
+# Raw footage and music stay local; never commit them
+public/footage/*
+!public/footage/.gitkeep
+public/music/*
+!public/music/.gitkeep

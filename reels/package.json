@@ -1,0 +1,22 @@
+{
+  "name": "reels",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Instagram reel templates built with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render VacationReel out/vacation-reel.mp4",
+    "still": "remotion still VacationReel out/preview.png --frame=45"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}

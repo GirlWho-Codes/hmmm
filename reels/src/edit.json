@@ -1,0 +1,11 @@
+{
+  "title": "Zanzibar",
+  "subtitle": "Tanzania",
+  "musicSrc": null,
+  "clips": [
+    { "src": null, "startFrom": 0, "duration": 2.5, "caption": "Stone Town" },
+    { "src": null, "startFrom": 0, "duration": 2, "caption": "Nungwi Beach" },
+    { "src": null, "startFrom": 0, "duration": 2, "caption": null },
+    { "src": null, "startFrom": 0, "duration": 3, "caption": "Sunset dhow cruise" }
+  ]
+}
